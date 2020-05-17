@@ -1,26 +1,22 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "extends": [
-        "standard",
-        "plugin:vue/essential"
-    ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parserOptions": {
-        "ecmaVersion": 11,
-        "parser": "@typescript-eslint/parser",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "vue",
-        "@typescript-eslint"
-    ],
-    "rules": {
-        "semi": ["error", "always"]
-    }
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "standard",
+    "plugin:vue/essential"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "eslint-plugin-vue",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": ["error", "always"]
+  }
 }
