@@ -1,22 +1,23 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": [
-    "standard",
-    "plugin:vue/essential"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 11,
-    "parser": "@typescript-eslint/parser",
-    "sourceType": "module"
-  },
-  "plugins": [
-    "eslint-plugin-vue",
-    "@typescript-eslint"
-  ],
-  "rules": {
-    "semi": ["error", "always"]
-  }
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "airbnb-base"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+    }
 }

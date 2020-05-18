@@ -1,6 +1,6 @@
 import Vue from 'vue';
 // eslint-disable-next-line no-unused-vars
-import VueRouter, { RouteConfig } from 'vue-router';
+import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue';
 import Scores from '../views/Scores.vue'
 import Score from '../views/Score.vue';
